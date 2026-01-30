@@ -4,7 +4,7 @@ global:
   imageOverrides:
     multicluster_role_assignment: quay.io/stolostron/multicluster-role-assignment:latest
   templateOverrides: {}
-  namespace: default
+  namespace: open-cluster-management-global-set
   pullSecret: null
   pullPolicy: Always
 hubconfig:
